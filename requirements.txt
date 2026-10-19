@@ -1,0 +1,8 @@
+duckdb
+pandas
+numpy
+scipy
+statsmodels
+matplotlib
+pytest
+cairosvg

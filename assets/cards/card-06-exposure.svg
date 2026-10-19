@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Exposure to the change</title>
+  <desc>Players reaching the gate</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <style>
+    .small { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .muted { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #6B7280; }
+    .title { font: 700 30px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .chip { font: 700 14px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+  </style>
+
+  <rect x="32" y="30" width="160" height="34" rx="12" fill="#16A34A"/>
+  <text x="54" y="52" class="chip">REAL RESULT</text>
+  <text x="32" y="110" class="title">Exposure to the change</text>
+  <rect x="920" y="32" width="240" height="34" rx="12" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="944" y="54" class="small">Source: data/processed</text>
+  
+  <rect x="110" y="190" width="200" height="180" fill="#DBEAFE"/>
+  <rect x="410" y="190" width="200" height="160" fill="#BFDBFE"/>
+  <text x="150" y="420" class="small">Gate 30: 18.5%</text>
+  <text x="450" y="420" class="small">Gate 40: 15.3%</text>
+  <rect x="760" y="200" width="260" height="120" rx="12" fill="#FEF3C7"/>
+  <text x="790" y="250" class="small">Post-randomization subgroup</text>
+  <text x="790" y="280" class="small">Exposure differs by arm; interpret with caution.</text>
+
+</svg>

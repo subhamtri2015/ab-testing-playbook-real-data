@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Metric hierarchy</title>
+  <desc>Primary, secondary, and guardrail</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <style>
+    .small { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .muted { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #6B7280; }
+    .title { font: 700 30px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .chip { font: 700 14px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+  </style>
+
+  <rect x="32" y="30" width="160" height="34" rx="12" fill="#2563EB"/>
+  <text x="54" y="52" class="chip">DIAGRAM</text>
+  <text x="32" y="110" class="title">Metric hierarchy</text>
+  <rect x="920" y="32" width="240" height="34" rx="12" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="944" y="54" class="small">Source: data/processed</text>
+  
+  <rect x="90" y="170" width="1000" height="260" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="140" y="220" class="small">Primary</text>
+  <text x="140" y="250" class="small">7-day retention</text>
+  <rect x="140" y="290" width="220" height="90" rx="12" fill="#DCFCE7"/>
+  <text x="170" y="345" class="small">19.02% vs 18.20%</text>
+  <text x="430" y="220" class="small">Secondary</text>
+  <text x="430" y="250" class="small">1-day retention</text>
+  <rect x="430" y="290" width="220" height="90" rx="12" fill="#F3F4F6"/>
+  <text x="470" y="345" class="small">44.82% vs 44.23%</text>
+  <text x="720" y="220" class="small">Guardrail</text>
+  <text x="720" y="250" class="small">sum_gamerounds</text>
+  <rect x="720" y="290" width="220" height="90" rx="12" fill="#DBEAFE"/>
+  <text x="770" y="345" class="small">mean 52.5 vs 51.3</text>
+
+</svg>

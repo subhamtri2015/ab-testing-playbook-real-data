@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Limits and unknowns</title>
+  <desc>Known data gaps</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <style>
+    .small { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .muted { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #6B7280; }
+    .title { font: 700 30px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .chip { font: 700 14px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+  </style>
+
+  <rect x="32" y="30" width="160" height="34" rx="12" fill="#D97706"/>
+  <text x="54" y="52" class="chip">NOT TESTABLE</text>
+  <text x="32" y="110" class="title">Limits and unknowns</text>
+  <rect x="920" y="32" width="240" height="34" rx="12" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="944" y="54" class="small">Source: data/processed</text>
+  
+  <rect x="190" y="180" width="180" height="70" rx="12" fill="#FEF3C7"/><text x="220" y="220" class="small">No timestamps</text>
+  <rect x="430" y="180" width="180" height="70" rx="12" fill="#FEF3C7"/><text x="455" y="220" class="small">No revenue</text>
+  <rect x="670" y="180" width="180" height="70" rx="12" fill="#FEF3C7"/><text x="700" y="220" class="small">No tools research</text>
+  <text x="260" y="330" class="small">We cannot measure peeking or novelty effects.</text>
+  <text x="500" y="330" class="small">No monetization signal is available.</text>
+  <text x="740" y="330" class="small">The tool stack is intentionally not researched.</text>
+
+</svg>

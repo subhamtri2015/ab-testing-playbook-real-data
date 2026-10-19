@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Lifecycle</title>
+  <desc>A/B testing in six stages</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <style>
+    .small { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .muted { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #6B7280; }
+    .title { font: 700 30px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .chip { font: 700 14px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+  </style>
+
+  <rect x="32" y="30" width="160" height="34" rx="12" fill="#9CA3AF"/>
+  <text x="54" y="52" class="chip">DIAGRAM</text>
+  <text x="32" y="110" class="title">Lifecycle</text>
+  <rect x="920" y="32" width="240" height="34" rx="12" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="944" y="54" class="small">Source: data/processed</text>
+  
+  <rect x="32" y="134" width="1136" height="400" rx="18" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="70" y="200" class="small">Plan</text>
+  <text x="70" y="228" class="muted">Define objective</text>
+  <text x="70" y="260" class="small">Design</text>
+  <text x="70" y="288" class="muted">Pre-register MDE</text>
+  <text x="230" y="200" class="small">Implement</text>
+  <text x="230" y="228" class="muted">QA and logs</text>
+  <text x="230" y="260" class="small">Monitor</text>
+  <text x="230" y="288" class="muted">Check SRM</text>
+  <text x="390" y="200" class="small">Analyse</text>
+  <text x="390" y="228" class="muted">CI and Holm</text>
+  <text x="390" y="260" class="small">Decide</text>
+  <text x="390" y="288" class="muted">Ship only if MDE clear</text>
+  <text x="660" y="170" class="small">Data evidence</text>
+  <text x="660" y="195" class="small">Cookie Cats D7: -0.82 pp</text>
+  <text x="660" y="220" class="small">SRM p=0.0086</text>
+  <text x="660" y="245" class="small">No duplicates / no nulls</text>
+  <text x="660" y="270" class="small">Decision: do not ship gate_40</text>
+
+</svg>

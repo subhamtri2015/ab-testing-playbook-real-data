@@ -1,0 +1,7 @@
+data/raw/
+data/jd64p-osfstorage-upworthy-archive-datasets-archive/
+data/cookie_cats.csv
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store

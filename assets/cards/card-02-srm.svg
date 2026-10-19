@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>SRM check</title>
+  <desc>Arm-size audit</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <style>
+    .small { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .muted { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #6B7280; }
+    .title { font: 700 30px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .chip { font: 700 14px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+  </style>
+
+  <rect x="32" y="30" width="160" height="34" rx="12" fill="#16A34A"/>
+  <text x="54" y="52" class="chip">REAL RESULT</text>
+  <text x="32" y="110" class="title">SRM check</text>
+  <rect x="920" y="32" width="240" height="34" rx="12" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="944" y="54" class="small">Source: data/processed</text>
+  
+  <rect x="90" y="175" width="420" height="260" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <text x="135" y="220" class="small">Expected split</text>
+  <rect x="140" y="250" width="150" height="120" fill="#DBEAFE"/>
+  <rect x="310" y="250" width="150" height="120" fill="#E0E7FF"/>
+  <text x="170" y="395" class="small">44,700</text>
+  <text x="340" y="395" class="small">45,489</text>
+  <text x="610" y="220" class="small">SRM p-value: 0.0086</text>
+  <text x="610" y="255" class="small">Flag threshold: 0.05</text>
+  <text x="610" y="290" class="small">Alarm threshold: 0.001</text>
+  <text x="610" y="330" class="small">Interpretation: check assignment and pipeline before trusting a result.</text>
+
+</svg>

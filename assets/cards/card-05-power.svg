@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <title>Power and MDE</title>
+  <desc>Small effect vs large MDE</desc>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <style>
+    .small { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .muted { font: 13px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #6B7280; }
+    .title { font: 700 30px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+    .chip { font: 700 14px Inter, -apple-system, Segoe UI, Arial, sans-serif; fill: #111827; }
+  </style>
+
+  <rect x="32" y="30" width="160" height="34" rx="12" fill="#2563EB"/>
+  <text x="54" y="52" class="chip">METHOD</text>
+  <text x="32" y="110" class="title">Power and MDE</text>
+  <rect x="920" y="32" width="240" height="34" rx="12" fill="#F3F4F6" stroke="#E5E7EB"/>
+  <text x="944" y="54" class="small">Source: data/processed</text>
+  
+  <rect x="90" y="180" width="1000" height="260" fill="#F9FAFB" stroke="#E5E7EB"/>
+  <polyline points="130,380 260,340 390,300 520,260 650,220 780,190 930,170" fill="none" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="260" cy="340" r="5" fill="#111827"/>
+  <circle cx="520" cy="260" r="5" fill="#DC2626"/>
+  <text x="110" y="150" class="small">MDE vs n per arm</text>
+  <text x="700" y="240" class="small">Observed effect: -0.82 pp</text>
+  <text x="700" y="270" class="small">Decision MDE: +1.0 pp</text>
+  <text x="700" y="300" class="small">Test was powered for a larger effect.</text>
+
+</svg>
